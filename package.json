@@ -1,0 +1,19 @@
+{
+  "name": "weatherapi-data-getter",
+  "version": "1.0.0",
+  "description": "gets weather data weatherApi.com",
+  "main": "weatherApiDataGetter.js",
+  "scripts": {
+    "test": "testme.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WallGauge-GaugeApps/weatherApiDataGetter.git"
+  },
+  "author": "John Rucker",
+  "license": "MIT",
+  "homepage": "https://WallGauge.com",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
