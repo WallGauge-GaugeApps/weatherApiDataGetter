@@ -7,6 +7,11 @@ wApi.getForecast()
     .then((rslt) => {
         console.log('Parsed weather data follows:');
         console.dir(wApi.data, {depth:null})
+        console.log('Getting Precip for last 7 days...');
+        return wApi.getPrecipTotal(7);
+    })
+    .then((rslt)=>{
+        console.log('There was a total of ' + rslt + '" of precipitation over the last 7 days');
     })
     .catch((err) => {
         console.error('Error getting forecast from weatherApiDataGetter', err);
