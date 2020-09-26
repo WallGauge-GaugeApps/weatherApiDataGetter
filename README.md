@@ -1,4 +1,4 @@
-# weatherApiDataGetter
+# weatherApi Data Getter (free weather api)
 
 This class pulls weater information from [weatherapi](https://www.weatherapi.com) a free and paid weather service.  To use this class you will need to signup for an account and get an API Key.  One of their terms for using the free account is to put a link back to their site as follows:
 
@@ -13,5 +13,5 @@ This class pulls weater information from [weatherapi](https://www.weatherapi.com
 
 ## To install
 
-* git clone
+* git clone https://github.com/WallGauge-GaugeApps/weatherApiDataGetter.git
 
