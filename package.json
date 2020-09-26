@@ -1,6 +1,6 @@
 {
   "name": "weatherapi-data-getter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "gets weather data weatherApi.com",
   "main": "weatherApiDataGetter.js",
   "scripts": {
