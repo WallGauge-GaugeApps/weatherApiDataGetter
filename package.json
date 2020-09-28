@@ -4,7 +4,7 @@
   "description": "gets weather data weatherApi.com",
   "main": "weatherApiDataGetter.js",
   "scripts": {
-    "test": "testme.js"
+    "test": "testMe.js"
   },
   "repository": {
     "type": "git",
