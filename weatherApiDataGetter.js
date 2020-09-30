@@ -197,7 +197,7 @@ class weatherApiDataGetter {
                     resolve(totalPrecip);
                 })
                 .catch((err) => {
-                    logit('Error with getPrecipTotal:');
+                    logit('Error with getPrecipHistory:');
                     reject(err);
                 });
         });
